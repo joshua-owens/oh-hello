@@ -2,9 +2,8 @@ import React, {useEffect, useState} from 'react';
 import Header from './components/Header';
 import ChatHistory from './components/ChatHistory';
 import ChatInput from './components/ChatInput';
-import './App.css';
-
 import {useSocket} from './hooks';
+import './App.css';
 
 export default function App() {
 	const [history, setHistory] = useState([]);
